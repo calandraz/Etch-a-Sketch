@@ -1,0 +1,15 @@
+h1 {
+	text-align: center;
+	color: blueviolet;
+	font-family: cursive;
+}
+
+#button {
+margin-left: 50%;
+border-color: skyblue;
+}
+
+.myButton {
+	margin-right: 10%;
+	border-color: skyblue;
+}
