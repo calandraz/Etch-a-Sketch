@@ -8,3 +8,15 @@ var $grid = $('.cube');
                 $grid.append(row);
             }
 });
+
+$(document).ready(function(){
+	$(".square").hover(function(){
+		$(this).css("background-color", "hotpink");
+	});
+});
+
+$(document).ready(function(){
+    $("#button").click(function(){
+        $(".square").css("background-color", "transparent");
+    });
+});
