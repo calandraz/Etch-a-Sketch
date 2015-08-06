@@ -7,23 +7,26 @@ h1 {
 
 #button {
 margin-left: 43%;
-border-color: skyblue;
+border: 1px solid deepskyblue;
+border-radius: 2em;
 margin-top: 0%;
 margin-bottom: 1%;
 }
 
 .myButton {
 	margin-right: 40%;
-	border-color: skyblue;
+	margin-left: 3%;
+	border: 1px solid deepskyblue;
+	border-radius: 2em;
 	float: right;
 	margin-top: 0%;
-	margin-bottom: -5%;
+	margin-bottom: -3%;
 }
 
-.container {
-	width: 600px;
-	height: 600px;
-	border: 2px solid azure;
+.cube {
+	width: 672px;
+	height: 670px;
+	border: 2px solid blue;
 	margin:auto;
 }
 
@@ -31,8 +34,9 @@ margin-bottom: 1%;
 
 .square {
     width: 40px;
-    height: 40px;
+    height: 40px; 
     border: 1px solid black;
 	display: table-cell;
+	color: transparent;
    
 }
