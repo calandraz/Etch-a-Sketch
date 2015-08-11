@@ -23,20 +23,20 @@ margin-bottom: 1%;
 	margin-bottom: -3%;
 }
 
-.cube {
-	width: 672px;
+.container {
+	max-width: 960px;
 	height: 670px;
-	border: 2px solid blue;
-	margin:auto;
+	margin: auto;
+	overflow: hidden;
+	border: 1px solid blue;
 }
 
-
-
 .square {
-    width: 40px;
-    height: 40px; 
     border: 1px solid black;
 	display: table-cell;
+	width: 100vw;
+	height:6vh;
 	color: transparent;
-   
+	position: relative;
+	margin: 0;
 }
