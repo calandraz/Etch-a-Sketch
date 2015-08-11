@@ -37,7 +37,6 @@ $(document).ready(function(){
         row += '<div class="square">' + j + '</div>';
         row += '</div>';
         $grid.append(row);
-        console.log(newG);
     }
     $(".square").hover(function(){
 		$(this).css("background-color", "hotpink");
