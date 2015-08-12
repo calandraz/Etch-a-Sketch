@@ -6,37 +6,31 @@ h1 {
 }
 
 #button {
-margin-left: 43%;
+margin: auto;
+margin-top: 0%;
+margin-left: 48%;
+margin-bottom: 1%;
 border: 1px solid deepskyblue;
 border-radius: 2em;
-margin-top: 0%;
-margin-bottom: 1%;
+
+
 }
 
-.myButton {
-	margin-right: 40%;
-	margin-left: 3%;
-	border: 1px solid deepskyblue;
-	border-radius: 2em;
-	float: right;
-	margin-top: 0%;
-	margin-bottom: -3%;
-}
 
 .container {
 	max-width: 960px;
-	height: 670px;
+	height: 920px;
 	margin: auto;
 	overflow: hidden;
-	border: 1px solid blue;
+	position: relative;
+	
 }
 
 .square {
-    border: 1px solid black;
 	display: table-cell;
-	width: 100vw;
-	height:6vh;
+    width:100vw;
+    height:5.5vh;
+    margin: 0 auto;
+	border: 1px solid black;
 	color: transparent;
-	position: relative;
-	margin: 0;
 }
